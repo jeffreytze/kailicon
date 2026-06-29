@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, p, div, span, ul, li, body,form, a{
+	margin:0px;
+	padding:0px;
+	line-height:140%;
+	font-weight:normal;
+	font-size: 14px;
+	font-family: Calibri;
+	  color:#000000;
+}
+ol, ul{
+    list-style:none;
+}
+td{
+  line-height:100%;
+}
+a{outline:none; color:#333333; text-decoration:none;}
+a:hover{
+ text-decoration:none;
+}
+h1{
+  font-size:12px;
+  
+ 
+ 
+  color:#4B4B4B;
+}
+h2{
+	font-size:12px;
+	color:#000;
+	line-height: 140%;
+}
+h3{
+	font-size:10px;
+	color:#000;
+	line-height: 150%;
+}
+
+h4{
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	line-height: 150%;
+}
+
+h5{
+	font-size:14px;
+	color:#a81318;
+	font-weight:bold;
+	line-height: 150%;
+}
+
+h6{
+	font-size:16px;
+	color:#a81318;
+	font-weight:bold;
+	line-height: 150%;
+}
+
+
+img{
+border:none;
+}
+.floatleft{ float:left; margin:10px 0px 0px 0;}
+.floatright{ float:right; margin:10px 0 0px 0px;}
+.clear{clear:both;}
+
+body{
+  background:#ffffff;
+  font-size:11px;
+  color:#333333;
+  font-size:11px;
+ 
+ 
+ }
+.wrap{
+  width:950px;
+  margin:0 auto;
+  
+  
+
+
+
+}
+#header{
+  padding-left:0px;
+  margin:0 auto;
+  width:950px;
+  height:128px;
+
+ 
+  
+   }
+#content{
+ margin:0 auto;
+  width:950px;
+  height:auto;
+  }
+#content2{
+ margin-top:4px;
+  width:950px;
+  height:auto;
+ 
+ }
+ #footer a{
+  margin:0 auto;
+  width:950px;
+  font-size:10px;
+  color:#000000;
+
+
+}
+
+
+#banner_wrap{
+  width:950px;
+  height:337px;
+  overflow:hidden;
+  position:relative;
+}
+#nav{
+  position:absolute;
+  margin:0 auto;
+  left:0;
+  right:0;
+  top:310px;
+  text-align:center;
+  z-index:999;
+  height:10px;
+  width:80px;
+ }
+ #nav a{
+   display:block;
+   margin-right:5px;
+   width:10px;
+   height:10px;
+   text-indent:-999999px;
+   float:left;
+   background-color:#c4c3c3;
+  }
+  #nav a:hover, #nav a.activeSlide{
+    background-color:#000000;
+ }	
+#banner_wrap2{
+  width:365px;
+  height:294px;
+  overflow:hidden;
+  position:relative;
+}
+#nav2{
+  position:absolute;
+  margin:0 auto;
+  left:280;
+  right:0;
+  top:280px;
+  text-align:center;
+  z-index:999;
+  height:10px;
+  width:80px;
+ }
+ #nav2 a{
+   display:block;
+   margin-right:5px;
+   width:10px;
+   height:10px;
+   text-indent:-999999px;
+   float:left;
+   background-color:#c4c3c3;
+  }
+  #nav2 a:hover, #nav2 a.activeSlide{
+    background-color:#000000;	
+	
+	
+}
+#icon{
+  position:absolute;
+  margin:0 ;
+  left:727px;
+
+  top:350px;
+  text-align:center;
+  z-index:999;
+  height:35px;
+  width:123px;
+
+}
+#icon2{
+  position:absolute;
+  margin:0 ;
+  left:499px;
+  top:55px;
+  text-align:center;
+  z-index:999;
+  height:40px;
+  width:200px;
+
+}
+
+
+
+
+
+#history{
+ width:425px;
+   display:block;
+}
+#history a{
+  display:block;
+  background-color:#000000;
+  color:#fff;
+  width:405px;
+  line-height:28px;
+  padding:0 10px;
+  font-size:17px;
+  font-weight:bold;
+  margin-bottom:5px;
+    display:block;
+ }
+#history .t_c{
+  width:405px;
+  padding:10px 10px;
+  background-color:#CCCCCC;
+  display:none;
+}
+
+
+#history2{
+ width:425px;
+}
+#history2 a{
+  display:block;
+  background-color:#ebeaea;
+  color:#193a70;
+  width:405px;
+  line-height:28px;
+  padding:0 10px;
+  font-size:17px;
+  font-weight:bold;
+  margin-bottom:5px;
+ }
+#history2 .t_c{
+  width:405px;
+  padding:10px 10px;
+  background-color:#f7f6f6;
+  display:none;
+}
+
+
+.data2{
+  border:1px solid #d9d9d9;
+  font-size:12px;
+  width:180px;
+    height:18px;  
+    float:none;
+	margin-left:0px;
+		margin-top:2px;
+		background-color:#FFFFFF;
+}
+
+form.contact input[type=text], form.contact textarea{
+ width:330px;
+ background-color:#FFFFFF;
+ outline:none;
+ border-top:1px solid #cccccc;
+ border-left:1px solid #cccccc;
+ border-right:1px solid #cccccc;
+ border-bottom:1px solid #cccccc;
+ padding:1px;
+ color:#000000;
+ font-size:14px;
+ font-family:Calibri;
+}
+
+.subtitle  a{
+	margin:0px;
+	padding:0px;
+	line-height:140%;
+	font-weight:normal;
+	font-size: 14px;
+	font-family: Calibri;
+	  color:#000000;
+	  	font-weight:bold;
+}
+.subtitle  a:hover{
+	margin:0px;
+	padding:0px;
+	line-height:110%;
+	font-weight:bold;
+	font-size: 14px;
+	font-family: Calibri;
+	  color:#333333;
+	  	font-weight:bold;
+}
+
+.datefont a{
+  font-size:12px;
+  
+  color:#4B4B4B;
+}
+.datefont a:hover{
+  font-size:12px;
+  
+  color:#333333;
+}
+
+#banner_title{
+ 	margin-top:20px;
+	width:443px;
+	   height:496px;  
+	}
+	
+	.banner_title2{
+
+	width:443px;
+	height:496px;  
+	}
+	
+.style5 {font-size: 24px}	
+.h10{
+	font-size:14px;
+	color:#a81318;
+	font-weight:bold;
+	line-height: 150%;
+}
